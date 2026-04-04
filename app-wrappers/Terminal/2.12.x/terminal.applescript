@@ -29,7 +29,7 @@
 			Uncheck all except "Show activity indicator"
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		make compile-terminal

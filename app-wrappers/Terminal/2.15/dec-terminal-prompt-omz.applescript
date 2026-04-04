@@ -3,7 +3,7 @@
 		Handles the default oh-my-zsh.  https://ohmyz.sh
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.15/dec-terminal-prompt-omz'

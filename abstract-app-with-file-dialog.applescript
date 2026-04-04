@@ -3,7 +3,7 @@
 		This script serves as the base script for application wrapper scripts that utilizes a file dialog either to open or to save a file.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh abstract-app-with-file-dialog

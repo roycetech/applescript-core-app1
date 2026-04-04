@@ -3,7 +3,7 @@
 
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Calendar/15.0/dec-calendar-meetings'

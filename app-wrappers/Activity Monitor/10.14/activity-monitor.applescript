@@ -3,7 +3,7 @@
 		Use activity monitor to force quit a non-responding or a rogue application process.
 		
 	@Project:
-		applescript-core-app1
+		applescript-core-apps1
 		
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Activity Monitor/10.14/activity-monitor'

@@ -4,7 +4,7 @@
 		This decorator will contain the handlers relating tab finding.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/17.5/dec-safari-tab-finder'

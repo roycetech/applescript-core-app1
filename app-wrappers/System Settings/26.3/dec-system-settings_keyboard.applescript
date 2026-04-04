@@ -3,7 +3,7 @@
 		Automating settings customization.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/System Settings/15.0/macOS Tahoe/dec-system-settings_keyboard'

@@ -5,7 +5,7 @@
 	NOTE: This will not work if you are using non-default prompt like OMZ.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/dec-terminal-prompt'

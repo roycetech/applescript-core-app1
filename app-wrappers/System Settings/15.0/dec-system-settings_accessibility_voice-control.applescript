@@ -2,7 +2,7 @@
 	This decorator contains handlers for when the Voice Control pane is active from the Accessibility settings.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 		
 	@Build:
 		./scripts/build-lib.sh "app-wrappers/System Settings/15.0/dec-system-settings_accessibility_voice-control"

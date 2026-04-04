@@ -12,7 +12,7 @@
 		passwords's getPassword()
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Passwords/2.0/passwords'

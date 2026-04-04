@@ -4,7 +4,7 @@
 	Could not reference the UI elements directly so I used a recursive handler to find the known hierarchy of the target element based on the UI description.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Home/7.0/home'

@@ -12,7 +12,7 @@
 			app-core Web Retry Sleep
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/16.0/safari-javascript'

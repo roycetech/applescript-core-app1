@@ -3,7 +3,7 @@
 
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/System Settings/26.3/dec-system-settings_general_about'

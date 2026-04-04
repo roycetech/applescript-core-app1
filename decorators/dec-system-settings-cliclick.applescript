@@ -3,7 +3,7 @@
 		Fix retrieval of password because the regular click doesn't trigger the menu like before.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh core/decorators/dec-system-settings-cliclick

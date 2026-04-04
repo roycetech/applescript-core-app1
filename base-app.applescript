@@ -3,7 +3,7 @@
 		Serves as base class for all application wrapper scripts.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh base-app

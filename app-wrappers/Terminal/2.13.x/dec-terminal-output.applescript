@@ -3,7 +3,7 @@
 		This script includes handlers that encompass the output functionality of the terminal.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.13.x/dec-terminal-output'

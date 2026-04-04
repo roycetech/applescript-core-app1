@@ -3,7 +3,7 @@
 		1.1 - For macOS Ventura.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Console/v1.1/console'

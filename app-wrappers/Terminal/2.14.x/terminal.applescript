@@ -30,7 +30,7 @@
 		Refactor using uniform handler names.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/terminal'

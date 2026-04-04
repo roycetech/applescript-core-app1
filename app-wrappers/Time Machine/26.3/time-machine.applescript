@@ -3,7 +3,7 @@
 		Time machine must be visible in the menu bar.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Time Machine/26.3/time-machine'

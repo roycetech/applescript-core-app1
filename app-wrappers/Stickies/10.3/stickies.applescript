@@ -1,6 +1,6 @@
 (*
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Stickies/10.3/stickies'

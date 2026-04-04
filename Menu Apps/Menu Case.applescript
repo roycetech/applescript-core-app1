@@ -7,7 +7,7 @@
 		selecting a test case.
 
 	@Project:
-		applescript-core 
+		applescript-core-apps1
 
 	@Known Issues:
 		Upon cases change, the menu items gets duplicated, but gets fixed after 

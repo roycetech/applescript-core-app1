@@ -3,7 +3,7 @@
 		Handlers for Terminal settings > Profiles > Window, with some shared handlers with Tab sub tab.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/dec-terminal-settings-profile-window'

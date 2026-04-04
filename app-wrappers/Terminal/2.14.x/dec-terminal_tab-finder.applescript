@@ -3,7 +3,7 @@
 		Script to handle tab finding. Should decorate the terminal instance, NOT the "terminal-tab".
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/dec-terminal_tab-finder'

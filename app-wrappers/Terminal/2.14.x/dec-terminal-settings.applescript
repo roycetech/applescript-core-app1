@@ -4,7 +4,7 @@
 		Implementation is limited to options I personally use.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/dec-terminal-settings'

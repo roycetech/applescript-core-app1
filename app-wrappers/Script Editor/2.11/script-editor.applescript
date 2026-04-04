@@ -4,7 +4,7 @@
 	display the file extension. TODO: Remove this requirement.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 	
 	 @Build:
 		./scripts/build-lib.sh 'app-wrappers/Script Editor/2.11/script-editor'

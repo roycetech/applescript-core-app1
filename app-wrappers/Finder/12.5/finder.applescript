@@ -11,7 +11,7 @@
 		keyboard.applescript - some handlers require key presses.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Finder/12.5/finder'

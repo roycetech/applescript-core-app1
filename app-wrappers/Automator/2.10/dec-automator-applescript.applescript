@@ -3,7 +3,7 @@
 		refactored AppleScript-specific handlers to reduce automator.applescript file size.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Automator/2.10/dec-automator-applescript'

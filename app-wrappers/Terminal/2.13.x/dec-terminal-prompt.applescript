@@ -3,7 +3,7 @@
 		This script incorporates handlers that encompass the terminal's prompt.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		make build-terminal

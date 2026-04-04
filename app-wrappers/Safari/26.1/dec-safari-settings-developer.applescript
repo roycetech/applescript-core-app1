@@ -3,7 +3,7 @@
 
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/26.1/dec-safari-settings-developer'

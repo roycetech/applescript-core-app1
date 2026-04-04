@@ -6,7 +6,7 @@
 	WARNING: Finder is slow in general (not just this script). Avoid using the app Finder as much as possible.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Finder/15.2/finder'

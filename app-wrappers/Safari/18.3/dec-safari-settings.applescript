@@ -6,7 +6,7 @@
 		This decorator will contain the handlers relating to tab groups.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/18.3/dec-safari-settings'

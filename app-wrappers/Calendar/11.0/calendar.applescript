@@ -22,7 +22,7 @@
 		- Add multiple timezone support.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Calendar/11.0/calendar'

@@ -5,7 +5,7 @@
 	Used Script Debugger to interact and test against Script Editor app.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Script Editor/2.11/dec-script-editor-dialog'

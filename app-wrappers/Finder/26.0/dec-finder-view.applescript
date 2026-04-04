@@ -5,7 +5,7 @@
 		NOTE: Haven't found programmatic way to change the sort direction.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Finder/26.0/dec-finder-view'

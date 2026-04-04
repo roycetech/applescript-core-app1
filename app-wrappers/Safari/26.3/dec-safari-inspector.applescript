@@ -8,7 +8,7 @@
 		Re-activate the Develop in the menu by going to the Settings > Advanced > check the "Show features for web developers"
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/26.3/dec-safari-inspector'

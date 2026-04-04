@@ -31,7 +31,7 @@
 			Uncheck all except "Show activity indicator"
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.13.x/terminal'

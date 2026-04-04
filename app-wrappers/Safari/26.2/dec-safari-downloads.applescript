@@ -3,7 +3,7 @@
 		Handlers for Downloads-related functions.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/26.2/dec-safari-downloads'

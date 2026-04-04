@@ -3,7 +3,7 @@
 		This script integrates handlers that encompass the run capabilities of the terminal.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/dec-terminal-run'

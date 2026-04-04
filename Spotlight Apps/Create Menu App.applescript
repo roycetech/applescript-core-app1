@@ -6,7 +6,7 @@
 	osacompile breaks the app.
 	
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Prerequisites:
 		make install-script-editor

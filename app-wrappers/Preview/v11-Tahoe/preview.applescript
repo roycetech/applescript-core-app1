@@ -7,7 +7,7 @@
 		@Last Modified: 2026-03-24 17:45:53
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Preview/v11-Tahoe/preview'

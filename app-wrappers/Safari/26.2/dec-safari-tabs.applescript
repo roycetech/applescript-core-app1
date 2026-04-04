@@ -3,7 +3,7 @@
 		Handler to return all the tabs.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/26.2/dec-safari-tabs'

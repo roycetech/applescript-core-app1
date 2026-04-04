@@ -10,7 +10,7 @@
 		This script was retrofitted from the Google Chrome version.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/26.0/dec-safari-tab-finder2'

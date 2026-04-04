@@ -4,7 +4,7 @@
 	This decorator aims to fix that.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/System Settings/15.0/macOS Sonoma/dec-system-settings-sonoma'

@@ -3,7 +3,7 @@
 		Profile related handlers for both the safari and safari-tab scripts.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/18.3/dec-safari-profile'

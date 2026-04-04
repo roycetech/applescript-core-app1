@@ -7,7 +7,7 @@
 		macOS Ventura 13.x and above.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
  
 	@Build:
 		make build-lib SOURCE="app-wrappers/System Settings/15.0/system-settings"

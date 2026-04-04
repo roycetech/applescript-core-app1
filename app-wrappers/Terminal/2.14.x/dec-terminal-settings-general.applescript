@@ -6,7 +6,7 @@
 		Only the On startup, open section radio buttons > popup, has accessibility label. The other pop ups were written by lazy developers
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Terminal/2.14.x/dec-terminal-settings-general'

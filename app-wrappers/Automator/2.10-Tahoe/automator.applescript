@@ -7,7 +7,7 @@
 		clipboard.applescript - Some input fields could not be manipulated directly so the clipboard is utilized.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Automator/2.10-Tahoe/automator'

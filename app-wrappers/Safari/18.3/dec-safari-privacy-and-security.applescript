@@ -3,7 +3,7 @@
 		This decorator provides handlers for responding to the prompt asking for location or camera access.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/18.3/dec-safari-privacy-and-security'

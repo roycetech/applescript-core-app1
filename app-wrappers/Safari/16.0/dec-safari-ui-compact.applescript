@@ -5,7 +5,7 @@
 		The handlers are specifically designed to handle when the Safari app is set to compact mode.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/16.0/dec-safari-ui-compact'

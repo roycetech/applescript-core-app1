@@ -4,7 +4,7 @@
 		This decorator will contain the handlers relating to the keychain.
 
 	@Project:
-		applescript-core
+		applescript-core-apps1
 
 	@Build:
 		./scripts/build-lib.sh 'app-wrappers/Safari/17.4.1/dec-safari-keychain'
