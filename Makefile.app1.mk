@@ -40,7 +40,6 @@ build-activity-monitor:
 
 install-activity-monitor: build-activity-monitor
 	mkdir -p /Applications/AppleScript
-	# cp -n plist.template ~/applescript-core/config-system.plist || true
 	osascript scripts/setup-apps-applescript-path.applescript
 	
 
@@ -116,7 +115,7 @@ build-passwords:
 
 build-preview:
 	@echo "Building Preview scripts..."
-	$(call _build-script,core/decorators/dec-preview-markup)
+	$(call _build-script,decorators/dec-preview-markup)
 	$(call _build-script,$(APP_WRAPPERS)/Preview/v11/preview)
 
 ifeq ($(shell [ $(OS_VERSION_MAJOR) -gt $(OS_SEQUOIA) ] && echo yes),yes)
@@ -134,7 +133,6 @@ SAFARI_VERSION_BUILDS := $(filter-out 16.0,$(patsubst $(APP_WRAPPERS)/Safari/%/,
 build-safari: build-base-app
 	# Older versions of scripts are built first and overwritten by newer versions.
 	@echo "Building Safari 16.0 scripts"
-	$(call _build-script,core/Level_5/javascript)
 	$(call _build-script,$(APP_WRAPPERS)/Safari/16.0/safari-tab)
 
 	@for file in $(wildcard $(APP_WRAPPERS)/Safari/16.0/*.applescript); do \
