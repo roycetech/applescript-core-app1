@@ -13,7 +13,7 @@
 		./scripts/build-lib.sh 'app-wrappers/Automator/2.10-Tahoe/automator'
 
 	WARNING:
-		Assumes automator is not used or opened for purposes other than the exclusive use of this script.
+		Assumes that the Automator app is not used or opened for purposes other than the exclusive use of this script.
 		Wipes out clipboard contents.
 
 	@Last Modified: 2026-03-24 17:45:51
@@ -25,7 +25,6 @@
 use scripting additions
 
 use std : script "core/std"
-use listUtil : script "core/list"
 
 use loggerFactory : script "core/logger-factory"
 
@@ -38,8 +37,8 @@ use usrLib : script "core/user"
 use decoratorLib : script "core/decorator"
 
 property logger : missing value
-property usr : missing value
 
+property usr : missing value
 property kb : missing value
 property configSystem : missing value
 property syseve : missing value
@@ -56,10 +55,10 @@ on spotCheck()
 	loggerFactory's inject(me)
 	logger's start()
 
-	set spotScript to script "core/spot-test"
 	set processLib to script "core/process"
 	set dockLib to script "core/dock"
 	set dock to dockLib's new()
+	set listUtil to script "core/list"
 	set cases to listUtil's splitAndTrimParagraphs("
 		NOOP
 		Manual: E2E: Create New App Script
@@ -68,6 +67,7 @@ on spotCheck()
 		Manual: Wait for Save ready
 	")
 
+	set spotScript to script "core/spot-test"
 	set spotClass to spotScript's new()
 	set spot to spotClass's new(me, cases)
 	set {caseIndex, caseDesc} to spot's start()
