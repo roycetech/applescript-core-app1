@@ -12,6 +12,12 @@ APP_WRAPPERS := app-wrappers
 # - 2026-03-29: Simplified by using the common build-app-scripts function.
 # - 2026-02-20: Added echo statements to the build targets to make the output more readable.
 
+AUTOMATOR_RUNNING := $(shell osascript -e \
+  'tell application "System Events" to return (exists (processes where name is "Automator"))' \
+  2>/dev/null)
+
+# $(info     D: AUTOMATOR_RUNNING: $(AUTOMATOR_RUNNING))
+
 build-all: \
 	build \
 	build-extras \
@@ -19,6 +25,7 @@ build-all: \
 
 
 build-apps-first-party: \
+	build-activity-monitor \
 	build-automator \
 	build-calendar \
 	build-console \
@@ -41,9 +48,10 @@ build-activity-monitor:
 install-activity-monitor: build-activity-monitor
 	mkdir -p /Applications/AppleScript
 	osascript scripts/setup-apps-applescript-path.applescript
-	
 
 build-automator:
+	# Automator will be launched by osacompile to verify its usage.  It will be
+	# killed after the build is complete unless it is already running.
 	@echo "Building Automator scripts..."
 	$(call _build-script, $(APP_WRAPPERS)/Automator/2.10/dec-automator-applescript)
 	$(call _build-script, $(APP_WRAPPERS)/Automator/2.10/automator)
@@ -51,6 +59,10 @@ build-automator:
 ifeq ($(shell [ $(OS_VERSION_MAJOR) -gt $(OS_SEQUOIA) ] && echo yes),yes)
 	@echo "\nBuilding Automator 2.10-Tahoe scripts..."
 	$(call _build-script, $(APP_WRAPPERS)/Automator/2.10-Tahoe/automator)
+endif
+
+ifeq ($(AUTOMATOR_RUNNING),false)
+	killall Automator 2>/dev/null || true
 endif
 	@echo "Build Automator completed\n"
 
